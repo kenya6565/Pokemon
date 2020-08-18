@@ -3,8 +3,10 @@
 class Move{
   public $name;
   public $damage;
-  function __construct($name, $damage){
+  public $type;
+  function __construct($name, $damage, $type){
     $this->name = $name;
     $this->damage = $damage;
+    $this->type = $type;
   }
 }
